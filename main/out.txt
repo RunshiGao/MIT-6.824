@@ -1,0 +1,811 @@
+*** Cannot find timeout command; proceeding without timeouts.
+*** Starting wc test.
+[{0 ../pg-being_ernest.txt 0 {13896519773904369976 4467056 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519773904370976 4467903 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519773904371976 4468668 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519773904489976 4587520 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519773904490976 4587828 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519773904491976 4588837 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519773904491976 4589073 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519773904491976 4589297 0x1843200} 0}]Asking for a job
+Asking for a job
+got a map task
+filename:../pg-tom_sawyer.txt
+got a map task
+filename:../pg-sherlock_holmes.txt
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-huckleberry_finn.txt
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+Asking for a job
+got a map task
+filename:../pg-frankenstein.txt
+file ok
+Report ok
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-dorian_gray.txt
+Asking for a job
+got a map task
+filename:../pg-being_ernest.txt
+Asking for a job
+didn't get a job, wait...
+file ok
+Report ok
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+didn't get a job, wait...
+reduce phase done, exiting
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+--- wc test: PASS
+Asking for a job
+Asking for a job
+*** Starting indexer test.
+[{0 ../pg-being_ernest.txt 0 {13896519792976733984 4789780 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519792976734984 4790702 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519792976735984 4791467 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519792976740984 4797285 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519792976741984 4797513 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519792976741984 4798381 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519792976742984 4798604 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519792976742984 4798846 0x1843200} 0}]Asking for a job
+Asking for a job
+got a map task
+filename:../pg-tom_sawyer.txt
+got a map task
+filename:../pg-sherlock_holmes.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+Asking for a job
+got a map task
+filename:../pg-huckleberry_finn.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+Asking for a job
+got a map task
+filename:../pg-frankenstein.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-dorian_gray.txt
+Asking for a job
+file ok
+got a map task
+filename:../pg-being_ernest.txt
+Report ok
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+reduce phase done, exiting
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+Asking for a job
+--- indexer test: PASS
+*** Starting map parallelism test.
+[{0 ../pg-being_ernest.txt 0 {13896519806572185696 4712094 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519806572187696 4713050 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519806572187696 4713754 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519806572193696 4719539 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519806572193696 4719768 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519806572196696 4722330 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519806572196696 4722557 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519806572196696 4722784 0x1843200} 0}]Asking for a job
+Asking for a job
+got a map task
+got a map task
+filename:../pg-sherlock_holmes.txt
+filename:../pg-tom_sawyer.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+Asking for a job
+got a map task
+filename:../pg-huckleberry_finn.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+got a map task
+filename:../pg-frankenstein.txt
+file ok
+file ok
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-dorian_gray.txt
+got a map task
+filename:../pg-being_ernest.txt
+file ok
+Report ok
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+reduce phase done, exiting
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+--- map parallelism test: PASS
+*** Starting reduce parallelism test.
+[{0 ../pg-being_ernest.txt 0 {13896519821977683232 4300347 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519821977684232 4301269 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519821977684232 4302109 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519821977693232 4310763 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519821977693232 4311006 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519821977699232 4316871 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519821977699232 4317098 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519821977700232 4317303 0x1843200} 0}]Asking for a job
+Asking for a job
+got a map task
+got a map task
+filename:../pg-sherlock_holmes.txt
+filename:../pg-tom_sawyer.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+Asking for a job
+file ok
+got a map task
+filename:../pg-huckleberry_finn.txt
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+Asking for a job
+file ok
+got a map task
+filename:../pg-frankenstein.txt
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-dorian_gray.txt
+Asking for a job
+got a map task
+filename:../pg-being_ernest.txt
+file ok
+Report ok
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+reduce phase done, exiting
+Report ok
+Asking for a job
+Asking for a job
+--- reduce parallelism test: PASS
+*** Starting job count test.
+[{0 ../pg-being_ernest.txt 0 {13896519839634895240 5178280 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519839634896240 5179247 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519839634897240 5180116 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519839634897240 5180868 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519839634898240 5181124 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519839634903240 5186652 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519839634903240 5186912 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519839634904240 5187151 0x1843200} 0}]Asking for a job
+Asking for a job
+got a map task
+filename:../pg-tom_sawyer.txt
+got a map task
+filename:../pg-sherlock_holmes.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+got a map task
+filename:../pg-huckleberry_finn.txt
+file ok
+Report ok
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+Asking for a job
+got a map task
+filename:../pg-frankenstein.txt
+file ok
+file ok
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a map task
+got a map task
+filename:../pg-being_ernest.txt
+filename:../pg-dorian_gray.txt
+file ok
+Report ok
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+Report ok
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+reduce phase done, exiting
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+Asking for a job
+Asking for a job
+Asking for a job
+--- job count test: PASS
+*** Starting early exit test.
+[{0 ../pg-being_ernest.txt 0 {13896519866810504840 3898792 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519866810505840 3899736 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519866810506840 3900483 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519866810507840 3901224 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519866810507840 3901459 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519866810510840 3904231 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519866810510840 3904477 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519866810510840 3904680 0x1843200} 0}]Asking for a job
+Asking for a job
+got a map task
+filename:../pg-sherlock_holmes.txt
+Asking for a job
+got a map task
+filename:../pg-tom_sawyer.txt
+got a map task
+filename:../pg-metamorphosis.txt
+file ok
+Report ok
+file ok
+file ok
+Report ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-huckleberry_finn.txt
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-frankenstein.txt
+got a map task
+filename:../pg-grimm.txt
+file ok
+file ok
+file ok
+Report ok
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-dorian_gray.txt
+didn't get a job, wait...
+got a map task
+filename:../pg-being_ernest.txt
+file ok
+Report ok
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+Asking for a job
+got a reduce task
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+didn't get a job, wait...
+reduce phase done, exiting
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+Asking for a job
+Asking for a job
+--- early exit test: PASS
+*** Starting crash test.
+[{0 ../pg-being_ernest.txt 0 {13896519879484599728 4893431 0x1843200} 0} {1 ../pg-dorian_gray.txt 0 {13896519879484600728 4894346 0x1843200} 0} {2 ../pg-frankenstein.txt 0 {13896519879484600728 4895140 0x1843200} 0} {3 ../pg-grimm.txt 0 {13896519879484612728 4906862 0x1843200} 0} {4 ../pg-huckleberry_finn.txt 0 {13896519879484612728 4907103 0x1843200} 0} {5 ../pg-metamorphosis.txt 0 {13896519879484613728 4907965 0x1843200} 0} {6 ../pg-sherlock_holmes.txt 0 {13896519879484614728 4908208 0x1843200} 0} {7 ../pg-tom_sawyer.txt 0 {13896519879484614728 4908418 0x1843200} 0}]Asking for a job
+Asking for a job
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-tom_sawyer.txt
+got a map task
+filename:../pg-metamorphosis.txt
+got a map task
+filename:../pg-huckleberry_finn.txt
+got a map task
+filename:../pg-sherlock_holmes.txt
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-frankenstein.txt
+got a map task
+filename:../pg-dorian_gray.txt
+Asking for a job
+Asking for a job
+got a map task
+filename:../pg-being_ernest.txt
+didn't get a job, wait...
+file ok
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+file ok
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a map task
+filename:../pg-tom_sawyer.txt
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+Asking for a job
+didn't get a job, wait...
+file ok
+Report ok
+Asking for a job
+got a map task
+filename:../pg-grimm.txt
+Asking for a job
+got a map task
+filename:../pg-frankenstein.txt
+file ok
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+file ok
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+file ok
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a map task
+filename:../pg-metamorphosis.txt
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+file ok
+map phase done, exiting
+[{0  0 {0 0 <nil>} 1} {1  0 {0 0 <nil>} 1} {2  0 {0 0 <nil>} 1} {3  0 {0 0 <nil>} 1} {4  0 {0 0 <nil>} 1} {5  0 {0 0 <nil>} 1} {6  0 {0 0 <nil>} 1} {7  0 {0 0 <nil>} 1} {8  0 {0 0 <nil>} 1} {9  0 {0 0 <nil>} 1}]Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+got a reduce task
+Report ok
+Asking for a job
+got a reduce task
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a reduce task
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a reduce task
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a reduce task
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+got a reduce task
+reduce phase done, exiting
+Report ok
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+didn't get a job, wait...
+Asking for a job
+Asking for a job
+Asking for a job
+--- crash test: PASS
+*** PASSED ALL TESTS
